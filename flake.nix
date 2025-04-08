@@ -61,6 +61,7 @@
             CHROME_EXECUTABLE = "${pkgs.ungoogled-chromium}/bin/chromium";
             buildInputs = [
               flutter
+              firebase-tools
               python3 # web serve locally 'python -m http.server'
               androidSdk # The customized SDK that we've made above
               sqlite
